@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;700;800;900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="side_menu">
+          <div class="top">
+            <div class="logo">
+              <img src="images/bird.png" alt="logo" />
+              <h2>EGA <span class="danger">TOR</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+              <span class="material-icons-sharp"> close </span>
+            </div>
+          </div>
+
+          <div class="side_menu_list">
+            <a href="#" class="active">
+              <span class="material-icons-sharp"> grid_view </span>
+              <h3>Dashboard</h3>
+            </a>
+            <a href="#">
+              <span class="material-icons-sharp"> person_outline </span>
+              <h3>Customers</h3>
+            </a>
+            <a href="#">
+              <span class="material-icons-sharp"> receipt_long </span>
+              <h3>Orders</h3>
+            </a>
+            <a href="#">
+              <span class="material-icons-sharp"> insights </span>
+              <h3>Analytics</h3>
+            </a>
+            <a href="#">
+              <span class="material-icons-sharp"> mail_outline </span>
+              <h3>Messages</h3>
+              <span class="message_count">26</span>
+            </a>
+            <a href="#">
+              <span class="material-icons-sharp"> inventory </span>
+              <h3>Reports</h3>
+            </a>
+            <a href="#">
+              <span class="material-icons-sharp"> settings </span>
+              <h3>Setting</h3>
+            </a>
+
+            <a href="#">
+              <span class="material-icons-sharp"> add </span>
+              <h3>Add Products</h3>
+            </a>
+            <a href="#" id="logout">
+              <span class="material-icons-sharp"> logout </span>
+              <h3>logout</h3>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <h1>Dashboard</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+
+        <div class="main_header">
+          <div class="sales">
+            <span class="material_icon_sharp">analytics</span>
+
+            <div class="main_row_content">
+              <div class="main_row_content_value">
+                <p>Total sales</p>
+                <h1>$8787</h1>
+              </div>
+
+              <div class="progress_bar">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text_muted">Last 24 Hours</small>
+          </div>
+
+          <div class="expenses">
+            <span class="material_icon_sharp">bar_chart</span>
+
+            <div class="main_row_content">
+              <div class="main_row_content_value">
+                <p>Total sales</p>
+                <h1>$8787</h1>
+              </div>
+
+              <div class="progress_bar">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text_muted">Last 24 Hours</small>
+          </div>
+
+          <div class="income">
+            <span class="material_icon_sharp">stacked_line_chart</span>
+
+            <div class="main_row_content">
+              <div class="main_row_content_value">
+                <p>Total sales</p>
+                <h1>$8787</h1>
+              </div>
+
+              <div class="progress_bar">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>81%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text_muted">Last 24 Hours</small>
+          </div>
+        </div>
+
+        <div class="recent_order">
+          <h2>Recent Orders</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product Number</th>
+                <th>Payment</th>
+                <th>Status</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mango</td>
+                <td>879</td>
+                <td>40</td>
+                <td>active</td>
+                <td>details</td>
+              </tr>
+              <tr>
+                <td>Mango</td>
+                <td>879</td>
+                <td>40</td>
+                <td>active</td>
+                <td>details</td>
+              </tr>
+
+              <tr>
+                <td>Mango</td>
+                <td>879</td>
+                <td>40</td>
+                <td>active</td>
+                <td>details</td>
+              </tr>
+              <tr>
+                <td>Mango</td>
+                <td>879</td>
+                <td>40</td>
+                <td>active</td>
+                <td>details</td>
+              </tr>
+              <tr>
+                <td>Mango</td>
+                <td>879</td>
+                <td>40</td>
+                <td>active</td>
+                <td>details</td>
+              </tr>
+              <tr>
+                <td>Mango</td>
+                <td>879</td>
+                <td>40</td>
+                <td>active</td>
+                <td>details</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <a href="#">Show all</a>
+        </div>
+      </main>
+
+      <div class="right_section">
+        <div class="right_top">
+          <button id="menu_btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <div class="theme_change">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+
+          <div class="user_name">
+            <div class="info">
+              <p>hey,<b> prem</b></p>
+              <small>Admin</small>
+            </div>
+
+            <div class="profile_photo">
+              <img src="images/profile.png" alt="profile" />
+            </div>
+          </div>
+        </div>
+
+        <div class="recent_updates">
+          <h2>Recent Updates</h2>
+          <div class="recent_updated_row">
+            <div class="update">
+              <div class="profile_photo">
+                <img src="images/profile.png" alt="" />
+              </div>
+              <div class="message">
+                <p>
+                  <span class="recent_updates_name">prem kumar</span>Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Adipisci, ipsum.
+                </p>
+                <small class="text-muted">2 Minutes Ago</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile_photo">
+                <img src="images/profile.png" alt="" />
+              </div>
+              <div class="message">
+                <p>
+                  <span class="recent_updates_name">prem kumar</span>Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Adipisci, ipsum.
+                </p>
+                <small class="text-muted">2 Minutes Ago</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile_photo">
+                <img src="images/profile.png" alt="" />
+              </div>
+              <div class="message">
+                <p>
+                  <span class="recent_updates_name">prem kumar</span>Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Adipisci, ipsum.
+                </p>
+                <small class="text-muted">2 Minutes Ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sales_analytics">
+          <h2>Sales Analytics</h2>
+
+          <div class="sales_analytics_in">
+            <div class="sales_ana_row online">
+              <div class="icon">
+                <span class="material-icons-sharp"> shopping_cart </span>
+              </div>
+              <div class="right">
+                <div class="sales_ana_col1">
+                  <h5>ONLINE ORDERS</h5>
+                  <p>Last 24 Hours</p>
+                </div>
+                <!-- <div class="sales_ana_col2"> -->
+                <p>+34%</p>
+                <!-- </div> -->
+                <!-- <div class="sales_ana_col3"> -->
+                <p>3849</p>
+                <!-- </div> -->
+              </div>
+            </div>
+
+            <div class="sales_ana_row offline">
+              <div class="icon">
+                <span class="material-icons-sharp"> shopping_cart </span>
+              </div>
+              <div class="right">
+                <div class="sales_ana_col1">
+                  <h5>ONLINE ORDERS</h5>
+                  <p>Last 24 Hours</p>
+                </div>
+                <div class="sales_ana_col2">
+                  <p>+34%</p>
+                </div>
+                <div class="sales_ana_col3">
+                  <p>3849</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales_ana_row customers">
+              <div class="icon">
+                <span class="material-icons-sharp"> shopping_cart </span>
+              </div>
+              <div class="right">
+                <div class="sales_ana_col1">
+                  <h5>ONLINE ORDERS</h5>
+                  <p>Last 24 Hours</p>
+                </div>
+                <div class="sales_ana_col2">
+                  <p>+34%</p>
+                </div>
+                <div class="sales_ana_col3">
+                  <p>3849</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sales_ana_row add_product">
+              <div>
+                <span class="material-icons-sharp">add</span>
+              </div>
+              <p>+ Add Product</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="practice.js"></script>
+  </body>
+</html>
